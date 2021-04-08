@@ -24,6 +24,10 @@ header{
     
     
 }
+
+.lien{
+    text-decoration: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -33,7 +37,7 @@ nav{
     margin-left: 3%;
 }
 a{
-    text-decoration: none;
+    
     color:white;
     font-size: 36px;
 }
@@ -145,4 +149,16 @@ button
 textarea{
     height: 70px;
     width: 400px;
+    resize: none;
+}
+span{
+    text-align: center;
+    
+}
+span p{
+    width: 450px;
+}
+
+.italic{
+    font-style: italic;
 }
