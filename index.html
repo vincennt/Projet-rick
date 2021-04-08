@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <a class="lien" href="#synopsis">Synopsis</a>
+            <a class="lien"href="#personnages">Personnages</a>
+            <a class="lien"href="#saisons">Saisons</a>
+            <a class="lien"href="#contact">Contact</a>
+        </nav>
+       <div class="titre"><h1>Rick & Morty</h1></div>
+    </header>
+    
+
+    <!-- Synopsis -->
+    <article>
+        <h2 id="synopsis" class="center">Synopsis</h2>
+        <p class="align">Rick est un scientifique âgé et déséquilibré qui a récemment renoué avec sa famille. Il passe le plus clair de son temps à entraîner son petit-fils Morty dans des aventures extraordinaires et dangereuses, à travers l'espace et dans des univers parallèles. Ajoutés à la vie de famille déjà instable de Morty, ces événements n'amènent qu'un surcroît de stress pour Morty, à la maison et au collège.</p>
+    </article>
+
+
+    <!-- tableau Personnages -->
+    <h2 id="personnages" class="center margintop">Personnages</h2>
+    <table border="1" >
+        <tr>
+            <td><img src="Rick_Sanchez.png" alt="Photo de rick"></td>
+            <td>Rick</td>
+            <td>Génie scientifique alcoolique, vulgaire, cynique et misanthrope. Il est l'incarnation de la science irresponsable ; d'une très grande intelligence et pouvant réaliser n'importe quelle invention, il peut être parfois un criminel ne répugnant à rien et outrepassant toute morale.</td>
+        </tr>
+        <tr>
+            <td><img src="Morty_Smith.jpg" alt="Photo de Morty"></td>
+            <td>Morty</td>
+            <td>Petit-fils de Rick de 14 ans. Plein de bonnes intentions, timide et soucieux de faire le bien, il est trop souvent emporté dans les aventures de Rick. Adolescent constamment ridiculisé par Rick, il l'aime pourtant énormément malgré l'antipathie que ce dernier peut avoir à son égard.</td>
+        </tr>
+        <tr>
+            <td><img src="Beth_Smith.png" alt="Photo de Beth Smith"></td>
+            <td>Beth</td>
+            <td>Fille de Rick, mère de Morty et épouse de Jerry. Elle est chirurgienne pour chevaux et, à l'instar de son père, elle aime l'alcool, notamment le vin rouge.</td>
+        </tr>
+    </table>
+
+    <section class="back-iframe">
+        <div class="titre1"><h2 id="saisons">Saison</h2></div>
+        <div class="textesaison"><p> Saison1</p> <p>Saison2</p> <p>Saison3</p></div>
+        <div class="container">
+            <div class="divi"><iframe class="bordure"  src="https://www.youtube.com/embed/fJ1np6NnMYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+            <div class="divi"><iframe class="bordure"  src="https://www.youtube.com/embed/y23LCrlGQiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="divi"><iframe class="bordure"  src="https://www.youtube.com/embed/vnIG6LzMnk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+    </section>
+    <h2 id="contact" class="contact">Nous contacter</h2>
+    <form>
+        <div class="formu">
+          <label for="name"></label>
+          <input placeholder="Votre nom" type="text" id="name" name="user_name" />
+        <div>
+        <div>
+          <label for="mail"></label>
+          <input placeholder="Votre e-mail" type="email" id="mail" name="user_email" />
+        </div>
+        <div>
+          <label for="msg"></label>
+          <textarea id="msg" placeholder="Votre message" name="user_message"></textarea>
+        </div>
+        <div class="buttone">
+            <button type="submit">Envoyer le message</button>
+        </div>
+    </form>
+    
+    <span>
+     <p>© 2020 Rick and Morty, Inc. Tout droits réservé. </p> 
+    </span>  
+    <p> <a target="blank" href="https://www.adultswim.com/videos/rick-and-morty"> site officiel </a></p>
+</body>
+</html>
