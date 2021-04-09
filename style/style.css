@@ -75,13 +75,15 @@ img{
     height: 140px;
     object-fit:cover;
 }
-.divi{
+/* .divi{
     width:200px;
     height: 200px;
-}
+} */
 
 iframe{
-    border:none;
+    border:white solid 1px;
+    width: 500px;
+    height: 300px;
     
 }
 .container{
@@ -91,7 +93,9 @@ iframe{
 
 .textesaison{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-top: 150px;
+   
 }
 .titre1{
     display: flex;
@@ -169,4 +173,8 @@ button{
 .white{
     color:black;
     background-color: white;
+}
+
+.margin{
+    margin-right: 60px;
 }
