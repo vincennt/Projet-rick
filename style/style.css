@@ -162,3 +162,11 @@ span p{
 .italic{
     font-style: italic;
 }
+button{
+    color: white;
+    border-radius: 60px;
+}
+.white{
+    color:black;
+    background-color: white;
+}
